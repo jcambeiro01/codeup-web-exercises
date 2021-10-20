@@ -50,3 +50,12 @@ for (var i=1; i < 101; i++){
 //shorter cleaner code for fizzbuzz challenge
 //figure out the bottom code meaning of symbols
 for(let i=0;i<100;)console.log((++i%3?'':'fizz')+(i%5?'':'buzz')||i)
+
+
+//morning exercise10-20 Wednsday
+
+function secondToLast(arr){
+    return arr [arr.length-2];
+
+}
+console.log(secondToLast(["first","Second","third"]));
