@@ -10,7 +10,7 @@
      * planetsArray.
      * console.log planetsArray to check your work
      */
-    var planetsArray=planetsString.split(',');
+    var planetsArray=planetsString.split('|');
      console.log(planetsArray);
 
     /**
@@ -23,12 +23,12 @@
      * list. You will need an opening AND closing <ul> tags around the entire
      * string, and <li> tags around each planet.
      */
-    var planets=("Mercury<br/>Venus<br>Earth<br>Mars<br>Jupiter<br>Saturn<br>Uranus<br>Neptune");
-console.log(planets);
+    var planetsWithBreakingTags=planetsArray.join("<br>");
+console.log(planetsWithBreakingTags);
 
 
-    var planets1="<ul><li>Mercury</li><li>Venus</li><li>Earth</li><li>Mars</li><li>Jupiter</li><li>Saturn</li><li>Uranus</li><li>Neptune</li></ul>";
-    console.log(planets1);
-
+    var unorderedListOfPlanets= "<ul><li>"+ planetsArray.join("</li><li>") + "</li></ul>";
+    console.log(unorderedListOfPlanets);
+document.write(unorderedListOfPlanets);
 
 })();
