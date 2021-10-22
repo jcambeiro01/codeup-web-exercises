@@ -59,3 +59,18 @@ function secondToLast(arr){
 
 }
 console.log(secondToLast(["first","Second","third"]));
+
+
+//morning Warmup 10-21-21 Thursday
+function moveToEnd (arr){
+    var removedElement= arr.shift();
+    arr.push(removedElement);
+   return arr;
+
+}
+console.log(moveToEnd([1,2,3,4,]));
+console.log(moveToEnd([rock and roll]));
+
+function moveToEnd(arr){
+    var remov
+}
