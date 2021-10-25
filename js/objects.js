@@ -69,39 +69,70 @@ shoppers.forEach(function (shopper){
      * > console.log(books[0].author.firstName) // "Douglas"
      * > console.log(books[0].author.lastName) // "Adams"
      */
-var books= [IT,The Sand, The Shining, Carrie, Misery];
-    Var authors ={
-    firstName:'Stephen ',
-        lastName:'King',
-        wroteBook:function (heWroteIt){
 
+    var books = [
+        {
+            Book: "It",
+            PublishedYear: "Sep. 15, 1986",
+
+           Author: {
+               firstName: "Stephen",
+                lastName: 'King',
+            }
+        },
+        {
+            Book: "The Stand",
+            PublishedYear: "Oct. 3, 1978",
+
+            Author: {
+                firstName: "Stephen",
+                lastName: 'King',
+            }
+        },
+        {
+            Book: "The Shinning",
+            PublishedYear: "Jan. 28, 1977",
+
+            Author: {
+                firstName: "Stephen",
+                lastName: 'King',
+            }
+        },
+        {
+            Book: "Carrie",
+            PublishedYear: "Apr. 5, 1974",
+
+            Author: {
+                firstName: "Stephen",
+                lastName: 'King',
+            }
+        },
+        {
+            Book: "Misery",
+            PublishedYear: "Jun. 8, 1987",
+
+            Author: {
+                firstName: "Stephen",
+                lastName: 'King',
+            }
         }
-    }
 
-    /**
-     * TODO:
-     * Loop through the books array and output the following information about
-     * each book:
-     * - the book number (use the index of the book in the array)
-     * - the book title
-     * - author's full name (first name + last name)
-     *
-     * Example Console Output:
-     *
-     *      Book # 1
-     *      Title: The Salmon of Doubt
-     *      Author: Douglas Adams
-     *      ---
-     *      Book # 2
-     *      Title: Walkaway
-     *      Author: Cory Doctorow
-     *      ---
-     *      Book # 3
-     *      Title: A Brief History of Time
-     *      Author: Stephen Hawking
-     *      ---
-     *      ...
-     */
+    ];
+
+    console.log("The first book is  " + books[0].Book + ' ' + books [0].PublishedYear + " .");
+console.log('It was Written by ' + books[0].Author.lastName +','+ books[0].Author.firstName)
+
+    console.log("The second book is  " + books[1].Book + ' ' + books [1].PublishedYear + " .");
+    console.log('It was Written by ' + books[1].Author.lastName +','+ books[1].Author.firstName)
+
+    console.log("The third book is  " + books[2].Book + ' ' + books [2].PublishedYear + " .");
+    console.log('It was Written by ' + books[2].Author.lastName +','+ books[2].Author.firstName)
+
+    console.log("The fourth book is  " + books[3].Book + ' ' + books [3].PublishedYear + " .");
+    console.log('It was Written by ' + books[3].Author.lastName +','+ books[3].Author.firstName)
+
+    console.log("The fith book is  " + books[4].Book + ' ' + books [4].PublishedYear + " .");
+    console.log('It was Written by ' + books[4].Author.lastName +','+ books[4].Author.firstName)
 
     /**
      * Bonus:
@@ -113,5 +144,7 @@ var books= [IT,The Sand, The Shining, Carrie, Misery];
      *   outputs the information described above. Refactor your loop to use your
      *   `showBookInfo` function.
      */
-
+function createBook(title, author){
+    return [0];
+    }
 })();

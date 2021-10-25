@@ -68,9 +68,16 @@ function moveToEnd (arr){
    return arr;
 
 }
-console.log(moveToEnd([1,2,3,4,]));
-console.log(moveToEnd([rock and roll]));
 
-function moveToEnd(arr){
-    var remov
-}
+
+var Arbok= {Name:'Arbok',
+    type:'snake',
+    feet:11,
+    inches:6,
+    weight:'143.3lbs',
+    category:'Cobra',
+    Abilities:'shed skin',
+    Type:'Poison',
+    Weakness:['Psychic','Ground']
+
+};
