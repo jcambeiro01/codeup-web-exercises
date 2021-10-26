@@ -185,4 +185,82 @@ function invertSign(number){
 return Math.abs(number);
 }
 console.log(invertSign(-10))
+
+    function degreesToRadians(num){
+return degreesToRadians();
+
+    }
+
+    function radiansToDegrees(){
+return radiansToDegrees()
+
+    }
+    // not sure what to do here
+    function isBlank(input){
+
+    return
+    }
+
+    //needs Work
+var str="  Hello   "
+function trim(str){
+    return str;
+}
+console.log(trim())
+
+//needs work!
+function areEqual(x,y){
+    return x == y ;
+
+}
+console.log (areEqual(5,'5'))
+
+function areIdentical(x,z){
+    return x===z;
+}
+console.log (areIdentical(4,4))
+
+    function not(x){
+    return x!==x;
+
+    }
+console.log(not(5))
+
+    function notNot(n){
+    return !!n;
+    }
+console.log(notNot(5))
+
+    function and(s,p){
+return s === p && p === s;
+
+    }
+    console.log(and(5,5))
+
+function or(v,y,z,l){
+
+    return v === y || z === l
+
+}
+console.log(or(3,4,5,5))
+
+    function reverseString(str){
+        return str
+            .split('')
+            .reverse()
+            .join('')
+    }
+    console.log(reverseString('Yoda'))
+
+  function  absoluteValue(x){
+
+    return Math.abs(x)
+
+  }
+console.log(-5)
+
+    function rollDice(min, max){
+    return Math.floor(Math.random()*(5-1+1))
+    }
+    console.log(rollDice())
 })()
