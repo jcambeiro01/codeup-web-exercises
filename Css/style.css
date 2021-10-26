@@ -2,10 +2,68 @@
 linked to welcome.html
 */
 
+body{
 
+    background-color: #aab3b9;
+    background-image:url(../img/pexels-thisisengineering-3861969.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Black And White Picture', sans-serif;height: 100%;
+    width: 0 auto;
+}
 
 
 .fancy-header {
-    color: purple;
+    color: red;
+    text-decoration: underline;text-align: center;
+}
+header p{
+color: white;
+}
+h2{
+    color: red;
     text-decoration: underline;
+}
+
+
+ul li{
+    color: aliceblue;
+    list-style-type: square;
+}
+ol li{
+    color: white;
+    list-style-type: upper-roman;
+}
+
+table,tr,td {
+    color: white;
+    border: 1px solid white;
+    padding: 4px;
+    margin: 2px;
+    background-color: purple;
+    text-align: center;
+}
+table {
+    background-color: black;
+}
+
+a:link{
+    color: gold;
+    text-decoration: underline;
+}
+a:visited{
+    color: coral;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: white;
+}
+footer{
+color: white;
+    border: 1px solid white;
+    background-color:rgba(255,0,0,0.3);
+
 }
