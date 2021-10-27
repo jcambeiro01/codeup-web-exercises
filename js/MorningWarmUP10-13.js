@@ -113,3 +113,4 @@ arr.forEach(function (element){
 return bucket;
 }
 console.log(filterForCanadians(wrestlers));
+
