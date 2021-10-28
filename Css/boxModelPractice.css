@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+
+
+.wrapper{
+    background-color: violet;
+width:38%;
+margin: 0 auto;
+
+
+}
+
+#recipe{
+    background-color: navy;
+    width:calc(180%-20px);
+    color: white;
+padding:  5px;
+
+    border-radius: 10%;
+    margin: 20px;
+    text-align: center;
+
+
+}
+article.ingredients{
+    color: white;
+    background-color: orange;
+
+}
+h1{
+    text-align: center;
+}

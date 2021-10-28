@@ -15,7 +15,7 @@ body{
 
 
 .fancy-header {
-    color: red;
+    color: #ff0008;
     text-decoration: underline;text-align: center;
 }
 header p{
@@ -61,6 +61,13 @@ a:hover{
 a:active{
     color: white;
 }
+
+p{
+    text-decoration: underline wavy blue;
+    text-align: left;
+    text-indent: 12px;
+}
+
 footer{
 color: white;
     border: 1px solid white;

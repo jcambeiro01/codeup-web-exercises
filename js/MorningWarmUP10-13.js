@@ -112,5 +112,19 @@ arr.forEach(function (element){
 });
 return bucket;
 }
-console.log(filterForCanadians(wrestlers));
+// console.log(filterForCanadians(wrestlers));
+// function calcArea (area){
+// var circle =(radius * radius * Math.PI) {
+//     radius:36
+//         return area;
+// }
+// }
+// console.log(calcArea(5))
 
+var circle={
+    radius:36
+}
+var area= Math.PI*(Math.pow(circle.radius, 2)){
+
+}
+console.log(area)
