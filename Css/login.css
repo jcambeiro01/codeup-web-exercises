@@ -26,24 +26,25 @@ fieldset {
 
 fieldset.width-80 {
 width: 80%;
-   margin: 0 auto;
+   margin: auto;
 
 }
 
-div.form-group {
+.form-group {
   width: 100%;
-   margin: .5em;
+   margin:0 .5em;
 }
 
 label.form-label {
 font-weight: bold;
 }
 
-button.btn-block {
+.btn-block {
  width: 100%;
+    margin:4px 0;
 }
 
-button.btn {
+.btn {
    padding: 8px;
  color: white;
     font-weight: bold;
@@ -52,10 +53,8 @@ button.btn {
 }
 
 input.form-control {
-padding-top: 4px;
-    padding-bottom: 4px;
-margin-top: .5em;
-    margin-bottom: .5em;
+padding: 4px 0;
+margin:.5em 0;
     width:calc(100% - 12px) ;
 
     /* You'll need to use the `calc` function to make the width of this element match the width of the button */

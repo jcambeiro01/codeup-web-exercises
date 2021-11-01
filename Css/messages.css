@@ -1,3 +1,12 @@
+:root{
+
+    --message-info:rgba(205,222,255,1)
+
+}
+
+
+
+
 body, html {
     height: 100%;
     width: 100%;
@@ -6,26 +15,26 @@ body, html {
     font-family: Arial, Ubuntu, sans-serif;
 }
 
-div.message-info{
-    background-color: var(--bg-info, rgba(205,222,255,1)) ;
+.message-info{
+    background-color:var( -- mesage-info);
     border: 1px solid lightgrey;
     margin-bottom: 6px;
     padding: 8px;
 }
-div.message-success{
-    background-color:var(--bg-success, rgba(207,243,218,1));
+.message-success{
+    background-color:rgba(207,243,218,1);
     border: 1px solid lightgrey;
     margin-bottom: 6px;
     padding: 8px;
 }
-div.message-warning{
-    background-color: var(--bg-warning, rgba(253,251,200,1));
+.message-warning{
+    background-color: rgba(253,251,200,1);
     border: 1px solid lightgrey;
     margin-bottom: 6px;
     padding: 8px;
 }
-div.message-error{
-    background-color:var(--bg-error, rgba(250,210,214,1));
+.message-error{
+    background-color:rgba(250,210,214,1);
     border: 1px solid lightgrey;
     margin-bottom: 6px;
     padding: 8px;
@@ -36,14 +45,14 @@ div.message-error{
 bg-info, text-info, bg-success, text-success
  */
 span.blue{
-    color: var(--info-text,darkblue);
+    color:darkblue;
 }
 span.green{
-    color:var(--success-text, darkgreen);
+    color:darkgreen;
 }
 span.yellow{
-    color: var(--warning-text,darkgoldenrod);
+    color:darkgoldenrod;
 }
 span.red{
-    color:var(--error-text,darkred);
+    color:darkred;
 }
