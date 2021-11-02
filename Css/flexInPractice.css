@@ -1,0 +1,15 @@
+.flex-container{
+    display: flex;
+    height: 20vh;
+    width: 70vw;
+    margin: 10vh auto;
+    background-color: #989898;
+    border: 5px solid black;
+    justify-content: center;
+}
+
+.flex-item{
+
+    background: rebeccapurple;
+    color: antiquewhite;
+}
