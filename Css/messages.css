@@ -1,0 +1,58 @@
+:root{
+
+    --message-info:rgba(205,222,255,1)
+
+}
+
+
+
+
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Ubuntu, sans-serif;
+}
+
+.message-info{
+    background-color:var( -- mesage-info);
+    border: 1px solid lightgrey;
+    margin-bottom: 6px;
+    padding: 8px;
+}
+.message-success{
+    background-color:rgba(207,243,218,1);
+    border: 1px solid lightgrey;
+    margin-bottom: 6px;
+    padding: 8px;
+}
+.message-warning{
+    background-color: rgba(253,251,200,1);
+    border: 1px solid lightgrey;
+    margin-bottom: 6px;
+    padding: 8px;
+}
+.message-error{
+    background-color:rgba(250,210,214,1);
+    border: 1px solid lightgrey;
+    margin-bottom: 6px;
+    padding: 8px;
+
+}
+
+/*
+bg-info, text-info, bg-success, text-success
+ */
+span.blue{
+    color:darkblue;
+}
+span.green{
+    color:darkgreen;
+}
+span.yellow{
+    color:darkgoldenrod;
+}
+span.red{
+    color:darkred;
+}

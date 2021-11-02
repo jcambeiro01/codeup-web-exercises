@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #cbffcd;
+    font-family: Arial, Ubuntu, sans-serif;
+}
+
+form {
+padding: 1em;
+    margin: 1em;
+}
+
+fieldset {
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+   padding: 1em;
+   border: none;
+ background-color: white;
+}
+
+fieldset.width-80 {
+width: 80%;
+   margin: auto;
+
+}
+
+.form-group {
+  width: 100%;
+   margin:0 .5em;
+}
+
+label.form-label {
+font-weight: bold;
+}
+
+.btn-block {
+ width: 100%;
+    margin:4px 0;
+}
+
+.btn {
+   padding: 8px;
+ color: white;
+    font-weight: bold;
+   border: 1px solid lightgrey;
+    background-color: #0fb784;
+}
+
+input.form-control {
+padding: 4px 0;
+margin:.5em 0;
+    width:calc(100% - 12px) ;
+
+    /* You'll need to use the `calc` function to make the width of this element match the width of the button */
+    /* See the example at: https://developer.mozilla.org/en-US/docs/Web/CSS/calc */
+    /* HINT: Calculate based on the padding of the `.btn` class */
+    /* HINT: Examples are available at: https://glitch.com/~input-button-width */
+
+}
+
+
+

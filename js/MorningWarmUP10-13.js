@@ -112,4 +112,49 @@ arr.forEach(function (element){
 });
 return bucket;
 }
-console.log(filterForCanadians(wrestlers));
+// console.log(filterForCanadians(wrestlers));
+// function calcArea (area){
+// var circle =(radius * radius * Math.PI) {
+//     radius:36
+//         return area;
+// }
+// }
+// console.log(calcArea(5))
+
+
+
+var groceries = [
+    {
+        name: "carrots",
+        quantity: 5
+    },{
+        name: "yams",
+        quantity: 50
+    },{
+        name: "oranges",
+        quantity: 9
+    },{
+        name: "onions",
+        quantity: 2
+    },{
+        name: "cucumbers",
+        quantity: 6
+    },{
+        name: "potatoes",
+        quantity: 8
+    }
+];
+function highestQuantity(arr) {
+   var obj ={
+       name:'Something',
+       quantity:0
+   }
+arr.forEach(function (el){
+       if (el.quantity>obj.quantity){
+           obj = el;
+       }
+    });
+return obj;
+}
+
+console.log(highestQuantity(groceries));

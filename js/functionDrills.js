@@ -263,4 +263,13 @@ console.log(-5)
     return Math.floor(Math.random()*(5-1+1))
     }
     console.log(rollDice())
+
+
+
+    function returnTwo(2){
+return returnTwo();
+}
+
+console.log(returnTwo((2));
+
 })()
