@@ -14,13 +14,77 @@ display: inline-block;
 .jumbotron{
     background-image: url('/img/pizza.png');
     height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 0px;
 }
 
-.display{
+.bannertext{
 
     text-align: center;
     background-color:rgba(255,255,255,0.5);
- display: inline-block;
-  margin-top: 1em;
-    margin-left:20em;
+    flex-grow: 1;
+
+
 }
+.bg-light{
+display: flex;
+    justify-content: space-evenly;
+
+}
+.badge-light{
+    background-color: #5e676d;
+    color: white;
+}
+.btn-primary{
+    color: blue;
+    background-color: white;
+    border: none;
+}
+.card-header{
+    background-color: blue;
+    color: white;
+}
+
+.card-body{
+    border: .5px gray solid;
+}
+.buttin{
+    border: lightgrey 1px solid;
+}
+.innercard{
+    background-color: #989898;
+    margin: 4px;
+}
+.butg{
+    margin: 8px;
+}
+.first {
+    background-color: blue;
+    color: white;
+    float: right;
+
+}
+
+.second{
+    background-color: blue;
+    color: white;
+    float: right;
+}
+.third{
+    background-color: blue;
+    color: white;
+    float: right;
+
+}
+.fourth{
+
+   background-color: blue;
+    color: white;
+
+float: right;
+}
+
+
